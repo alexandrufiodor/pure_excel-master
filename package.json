@@ -1,0 +1,53 @@
+{
+  "name": "pure_excel",
+  "version": "1.0.0",
+  "description": "Pure Js Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/alexandrufiodor/pure_excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Alexandru Fiodor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrufiodor/pure_excel/issues"
+  },
+  "homepage": "https://github.com/alexandrufiodor/pure_excel#readme",
+  "private": true,
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.11",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.13.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

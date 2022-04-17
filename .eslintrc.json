@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "google"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "rules": {
+    "semi": ["error", "never", { "beforeStatementContinuationChars": "never"}],
+    "no-use-before-define": ["error", { "functions": false }],
+    "react/prop-types": ["warn"],
+    "react/jsx-props-no-spreading": ["warn"],
+    "max-len": ["warn", { "code": 100 }],
+    "max-lines": ["warn", { "max": 250, "skipBlankLines": true, "skipComments": true}],
+    "consistent-return": 0
+  },
+}
